@@ -24,8 +24,8 @@
     padding: 8px;
     color: #fdfcdc;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     border: 3px solid black;
     border-radius: 20px;
 }
