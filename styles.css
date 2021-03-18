@@ -3,3 +3,55 @@
     padding: 0;
 }
 
+#grid-container {
+    background-color: #fdfcdc;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 200px 150px 200px 50px ;
+}
+
+.grid-item {
+    padding: 8px;
+    color: black;
+}
+
+
+
+#grid-header {
+    background-color: #004e89;
+    grid-area: header;
+}
+
+#grid-main-one {
+    background-color: #f7c59f;
+    grid-area: main-one;
+}
+
+#grid-aside-one {
+    background-color: #ff6b35;
+    grid-area: aside-one;
+}
+
+#grid-aside-two {
+    background-color: #1a659e;
+    grid-area: aside-two;
+}
+
+#grid-aside-three {
+    background-color: #ff6b35;
+    grid-area: aside-three;
+}
+
+#grid-aside-four {
+    background-color: #1a659e;
+    grid-area: aside-four;
+}
+
+#grid-main-two {
+    background-color: #f7c59f;
+    grid-area: main-two;
+}
+
+#grid-footer {
+    background-color: #ff6b35;
+    grid-area: footer;
+}
